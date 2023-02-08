@@ -1,0 +1,4 @@
+clear ;
+rm target/loadApi-1.jar ;
+mvn clean install ;
+java -jar target/loadApi-1.jar ;
